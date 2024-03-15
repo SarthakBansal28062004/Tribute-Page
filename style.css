@@ -1,0 +1,384 @@
+/* Page Styling */
+
+body{
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar Styling */
+
+.options{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(188, 188, 188);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.options a{
+    text-decoration: none;
+    display: flex;
+    height: 70px;
+    width: 12%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(24, 24, 24);
+    border-radius: 10px;
+    transition: ease-in-out all .3s;
+}
+
+.options a:hover{
+    transition: ease-in-out all 0.3s;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border: 3px solid whitesmoke;
+}
+
+/* Headings Styling */
+
+.banner{
+    height: 350px;
+    width: 100%;
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Home Section Styling */
+
+.images{
+    height: 715px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(188, 188, 188);
+}
+ 
+.img1{
+    margin: 7.5px;
+    height: 400px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.img1a{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 1px;
+}
+
+.img2{
+    margin-top: 7.5px;
+    height: 700px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.img2a{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img3{
+    margin-top: 7.5px;
+    margin-right: 7.5px;
+    height: 700px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.img3a{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img4{
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    height: 400px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.img4a{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img5a{
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 3.85px;
+}
+
+.img6a{
+    height: 290px;
+    width: 270px;
+    border-radius: 10px;
+    margin-top: 3.85px;
+}
+
+.img7a{
+    margin-left: 1px;
+    height: 290px;
+    width: 140px;
+    border-radius: 10px;
+    margin-top: 3.85px;
+}
+
+/* About Section Styling */
+
+.about{
+    padding: 10px;
+    height: 550px;
+    width: 68%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About{
+    display: flex;
+}
+
+.about p{
+    margin: 10px;
+    font-size: 23px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: black;
+}
+
+.about-image{
+    margin-left: 7.5px;
+    padding: 10px;
+    height: 550px;
+    width: 40%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Awards Section Styling */
+
+.Awards{
+    display: flex;
+}
+
+.awards-image{
+    padding: 10px;
+    height: 800px;
+    width: 50%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awards-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.awards{
+    margin-left: 7.5px;
+    padding: 10px;
+    height: 800px;
+    width: 50%;
+    background-color: rgb(188, 188, 188);
+}
+
+.awards p{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.awards h2{
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* IPL Section Styling */
+
+.Ipl{
+    display: flex;
+}
+
+.ipl{
+    margin-right: 7.5px;
+    padding: 10px;
+    height: 700px;
+    width: 65%;
+    background-color: rgb(188, 188, 188);
+}
+
+.ipl-image{
+    padding: 10px;
+    height: 700px;
+    width: 50%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipl-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.ipl p{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ipl h2{
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* International Career Styling */
+
+.International{
+    display: flex;
+}
+
+.international{
+    margin-left: 7.5px;
+    padding: 10px;
+    height: 680px;
+    width: 60%;
+    background-color: rgb(188, 188, 188);
+}
+
+.international-image{
+    padding: 10px;
+    height: 680px;
+    width: 40%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.international-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.international p{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Records Styling */
+
+.records{
+    display: flex;
+}
+
+.record-info{
+    margin-right: 7.5px;
+    padding: 10px;
+    height: 715px;
+    width: 60%;
+    background-color: rgb(188, 188, 188);
+}
+
+.record-image{
+    padding: 10px;
+    height: 715px;
+    width: 40%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.record-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.record-info p{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Footer Styling */
+
+.footer{
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+}
+
+.footer-options{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-options a{
+    text-decoration: none;
+    display: flex;
+    height: 90px;
+    width: 22%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: fantasy;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(24, 24, 24);
+    border-radius: 10px;
+    transition: ease-in-out all .3s;
+}
+
+.footer-options a:hover{
+    transition: ease-in-out all 0.3s;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border: 3px solid whitesmoke;
+}
+
+/* The end of style.css for Tribute-Page */
